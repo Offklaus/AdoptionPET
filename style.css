@@ -11,8 +11,8 @@
 }
 
 :root {
-    --main-color: #fda702;
-    --second-color:#ebeff2;
+    --main-color: #0d69b4;
+    --second-color:#c0e5fa;
     --text-color: #02171d;
     --bg-color:#fff;
 
@@ -39,7 +39,8 @@ html::-webkit-scrollbar-track {
     font-weight: 500;
     display: inline-block;
     text-transform: uppercase;
-    clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
+    border-radius: 20px;
+    
 }
 .btn:hover {
     background: var(--text-color);
@@ -50,7 +51,7 @@ img {
     width: 100%0;
 }
 section {
-    padding: 50px 100px;
+    padding: 50px 50px;
 }
 
 header {
@@ -61,9 +62,10 @@ header {
     z-index: 1000;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px 10px;
     transition: 0.5s linear;
+    
     
 }
 
@@ -254,22 +256,26 @@ header {
 }
 .heading span {
     padding: 0.2rem 1.2rem;
+    margin-bottom: 10px;
     background: var(--main-color);
     color: var(--bg-color);
     font-weight: 500;
     display: inline-block;
     text-transform: uppercase;
-    clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
+    border-radius: 15px;
 }
 .new-arrival{
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 40vh;
 
 }
 .new-arrival .box {
     position: relative;
     overflow: hidden;
     width: 33%;
-    height: 50vh;
+    height: 40vh;
+    
     background: var(--second-color);
 }
 .new-arrival .box img {
