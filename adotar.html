@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=0"/> 
+    <title >AdoPet</title>
+    <link href="https: //fonts.googleapis.com/css2?family= Montserrat:wght@300;400 ; 600;700 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adopt.css">
+    <script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</head> 
+<body>
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-cat'></i> Adopets</a>
+
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#new">Novos amigos</a></li>
+            <li><a href="#products">Pets</a></li>
+            <li><a href="#reviews">Avaliações</a></li>
+        </ul>
+
+        <div class="header-icons">
+            <i class='bx bx-menu'id="menu-icon" ></i>
+            <i class='bx bx-search-alt-2' id="search-icon" ></i>
+            <i class='bx bx-cart'id="cart-icon" ></i>
+            <i class='bx bx-user' id="user-icon"></i>
+        </div>
+
+        <!--Caixa de pesquisa-->
+        <div class="search-box">
+            <input type="search" name="" id="" placeholder="Pesquise aqui">
+        </div>
+
+        <div class="cart">
+            <div class="box">
+                <img src="img2.png" alt="">
+                <div class="text">
+                    <h3>Pedro</h3>
+                    <span>Macho</span>
+                    <br>
+                    <span>2 anos</span>
+                    <i class='bx bxs-trash' ></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="img3.png" alt="">
+                <div class="text">
+                    <h3>Pandora</h3>
+                    <span>Femea</span>
+                    <br>
+                    <span>2 anos</span>
+                    <i class='bx bxs-trash' ></i>
+                </div>
+            </div>
+
+            <h2>Total: 100.10</h2>
+            <a href="#" class="btn">Adotar</a>
+        </div>
+
+        <div class="user">
+            <h2>Entrar agora</h2>
+            <input type="email" name="" id="" placeholder="Seu e-mail">
+            <input type="password" name="" id="" placeholder="Sua senha">
+            <input type="submit" value="ENTRAR" class="login-btn">
+            <p>Esqueci a senha<a href=""Reset Now></a></p>
+            <p>Você não tem uma conta? <a href="">Crie agora</a></p>
+        </div>
+    </header>
+
+    <section class="adoption">
+        <h1> Encontre um novo amigo</h1>
+        <div class="form-box">
+            <div class="ls-custom-select">
+
+                <select class="ls-select" id="labelcat">      
+                    <option selected="selected">Todas as especies</option>
+                    <option value="1"> Gato</option>
+                    <option value="2"> Cachorro</option>
+                    <option value="3"> Papagaio </option>
+                    <option value="4"> Tartaruga</option>
+                </select>
+
+                <select class="ls-select" id="labelcat">
+                    <option selected="selected"> Todos os sexos</option>
+                    <option value="1"> Macho </option>
+                    <option value="2"> Fêmea </option>  
+                
+                </select>
+
+                <select class="ls-select" id="labelcat">
+                   
+                    <option selected="selected"> Todos os portes</option>
+                    <option value="1"> Pequeno</option>
+                    <option value="2"> Medio </option>
+                    <option value="3"> Grande </option>
+                </select>
+                
+            </div>
+            <div class="ls-custom-select">
+
+                <select class="ls-select" id="labelcat">      
+                    <option selected="selected">Todas os estados</option>
+                    <option value="1"> São Paulo</option>
+                    <option value="2"> Minas Gerais</option>
+                    <option value="3"> Rio de Janeiro </option>
+                    <option value="4"> Rio Grande do Sul</option>
+                </select>
+
+                <select class="ls-select" id="labelcat">
+                    <option selected="selected"> Todas as cidade</option>
+                    <option value="1"> Santa Rita do Sapucai</option>
+                    <option value="2"> pouso Al</option>  
+                
+                </select>
+
+                <button class="search">Buscar</button>
+                
+            </div>
+            
+        </div>
+        
+        <div class="adopt-layer">
+
+            <div class="adotar-pet">
+            <div class="cont">
+                <h1> Pandora</h1>
+                <div class="img-animal">
+                    
+                </div>
+            </div>
+            </div>
+            <div class="adotar-pet"></div>
+            <div class="adotar-pet"></div>
+            
+        </div>
+
+        
+        
+        
+    </section>
+</body>

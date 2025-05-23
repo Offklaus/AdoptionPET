@@ -1,0 +1,115 @@
+:root {
+    --primary-100:#06135f;
+    --primary-200:#2b96ac;
+    --primary-300:#2E7090;
+    --accent-100:#7599e7;
+    --accent-200:#084374;
+    --text-100:#ffffff;
+    --text-200:#ffffff;
+    --text-300:#000000;
+    --bg-100:#D4E2DC;
+    --bg-200:#046d97;
+    --bg-300:#1196be;
+    
+}
+
+.header a {
+    color: black;
+}
+.creat {
+    border: 2px solid black;
+}
+.creat:hover {
+    border: 2px solid black;
+    background-color: var(--primary-200);
+    color: black
+}
+
+
+.adoption {
+    gap: 2rem;
+    height: 100vh;
+    background-color: var(--bg-100);
+    display: flex;
+    flex-direction: column ;
+    padding: 10% 10%;
+}
+
+.form-box {
+    gap: 2rem ;
+    width: 98%;
+    height: 150px;
+    padding: 20px 2%;
+    background-color: var(--bg-200);
+    color: whitesmoke;
+
+
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ls-custom-select{
+    display: flex;
+    gap: 2rem;
+}
+
+.ls-select {
+    border-radius: 20px;
+    width: 30vw;
+    height: 40px;
+    color: black;
+    font-size: 1rem;
+
+}
+
+option {
+    background-color: var(--bg-100);
+    color: black;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    
+}
+
+
+
+.search {
+    background-color: var(--primary-100);
+    width: 30vw;
+    height: 40px;
+    border: 1px solid var(--text-300);
+    border-radius: 10px;
+    color: var(--text-200);
+}
+
+.search:hover {
+    background-color: var(--accent-100);
+    cursor: pointer;
+    font-size: 1.05rem;
+}
+
+.adopt-layer {
+    gap: 2rem ;
+    width: 98%;
+    height: 800px;
+    background-color: var(--bg-200);
+
+
+    border-radius: 10px;
+    display: flex;
+    
+}
+
+.adotar-pet{
+    display: flex ;
+    justify-content: center;
+    width: 30vw;
+    height: 350px;
+    gap: 2rem;
+    background-color: var(--accent-200)
+}
+
+.image-animal {
+   
+}
