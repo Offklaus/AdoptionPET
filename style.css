@@ -12,7 +12,7 @@
 
 :root {
     --main-color: #0d69b4;
-    --second-color:#c0e5fa;
+    --second-color:#1c4c75;
     --text-color: #02171d;
     --bg-color:#fff;
 
@@ -94,7 +94,7 @@ header {
 }
 
 .navbar a:hover {
-    color: var(--main-color);
+    color: var(--bg-color);
 }
 
 .header-icons {
@@ -102,6 +102,19 @@ header {
     cursor: pointer;
     z-index: 100000;
 }
+#cart-icon:hover {
+    color: var(--bg-color);
+}
+
+#user-icon:hover {
+    color: var(--bg-color);
+}
+
+#search-icon:hover {
+    color: var(--bg-color);
+}
+
+
 
 #menu-icon {
     display: none;
@@ -248,8 +261,8 @@ header {
     margin-bottom: 1rem;
 }
 .home-img img {
-    width: 100%;
-    height: 100%;
+    width: 74%;
+    height: 86%;
 }
 
 .heading {
@@ -285,6 +298,9 @@ header {
     border-radius: 5px;
     box-shadow: black;
     background: var(--second-color);
+}
+.content:hover {
+    cursor: pointer;
 }
 .new-arrival .box img {
     border-radius: 10px;
@@ -358,6 +374,7 @@ header {
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .avaliation{
